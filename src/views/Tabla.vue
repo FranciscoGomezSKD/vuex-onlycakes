@@ -3,13 +3,12 @@
     <Header/>
     
     <div class="centralPanel">
-        <Titulo msg="Bienvenidos"/>
+        <Titulo msg="Nuevos Pedidos"/>
         <div class="divcentral">
             <BarraNav/>
             <div class="leftPanel">
               <div class="whiteCont">
-                <Menu/>
-                <ImagenCake/>
+                <TablaPed/>
               </div>
             </div>
         </div>
@@ -29,7 +28,7 @@
 import Header from "../components/Header.vue";
 import Titulo from "../components/Titulo.vue";
 import BarraNav from "../components/BarraNav.vue";
-import ImagenCake from "../components/ImagenCake.vue";
+import TablaPed from "../components/TablaPed.vue";
 import Menu from "../components/Menu.vue";
 import Contacto from "../components/Contacto.vue";
 
@@ -40,8 +39,7 @@ export default {
     Header,
     Titulo,
     BarraNav,
-    ImagenCake,
-    Menu,
+    TablaPed,
     Contacto
   },
 }

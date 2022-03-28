@@ -1,9 +1,10 @@
 <template>
-  <nav>
+  <router-view/>  <!-- Seccion donde se muestran los views -->
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  </nav> -->
+  
 </template>
 
 <style>
@@ -13,10 +14,21 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
+  /*************************** user edit *******************************************/
+  background: url("./assets/cupcake.png");
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  /* position: relative; */
+  margin: 0% 0% 0% 0%;
+  /*********************************************************************************/
 }
 
 nav {
   padding: 30px;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 nav a {

@@ -3,13 +3,13 @@
     <Header/>
     
     <div class="centralPanel">
-        <Titulo msg="Bienvenidos"/>
+        <Titulo msg="Inventario"/>
         <div class="divcentral">
             <BarraNav/>
             <div class="leftPanel">
               <div class="whiteCont">
-                <Menu/>
-                <ImagenCake/>
+                <Inventario/>
+                <RedCake/>
               </div>
             </div>
         </div>
@@ -29,19 +29,19 @@
 import Header from "../components/Header.vue";
 import Titulo from "../components/Titulo.vue";
 import BarraNav from "../components/BarraNav.vue";
-import ImagenCake from "../components/ImagenCake.vue";
-import Menu from "../components/Menu.vue";
+import RedCake from "../components/RedCake.vue";
+import Inventario from "../components/Inventario.vue";
 import Contacto from "../components/Contacto.vue";
 
 export default {
-  name: 'HomeView',
+  name: 'Pastelero',
   components: {
     // HelloWorld,
     Header,
     Titulo,
     BarraNav,
-    ImagenCake,
-    Menu,
+    RedCake,
+    Inventario,
     Contacto
   },
 }
